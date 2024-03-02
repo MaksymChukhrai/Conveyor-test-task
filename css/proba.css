@@ -1,0 +1,31 @@
+.container{
+  width:500px;
+  margin:0 auto;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+  .swiper-thumbs {
+    position: inherit;
+    width:600px;
+    margin-top: 20px; /* Регулируйте отступы в соответствии с вашим дизайном */
+    margin:0 auto;
+  }
+
+.swiper-thumb {
+    width: 100px; /* Ширина каждого превью */
+    height: auto; /* Высота превью */
+}
+
+.swiper-thumb img {
+    width: 100%; /* Заполнение превью по ширине */
+    height: auto; /* Автоматическая высота */
+    border: 2px solid transparent; /* Добавьте рамку или другие стили по желанию */
+}
+
+.swiper-thumb-active {
+    border-color: #ff0000; /* Цвет рамки для активного превью */
+}
+

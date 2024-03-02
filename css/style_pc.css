@@ -1,0 +1,13 @@
+@media screen and (min-width: 1200px) {
+.slider-conv-img>li>img{
+   width:652px;
+   height: 434px;
+}
+.slider-preview-img>li>img{
+    width: 108px;
+    height: 72px;
+}
+
+
+
+}
