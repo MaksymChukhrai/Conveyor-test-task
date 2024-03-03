@@ -221,6 +221,7 @@ color:var(--button-text-color);
   .checkbox-block:not(:last-child){
     margin-bottom: 4px;
   }
+  /* Removed the shadow due to a change in Figma layout conditions  */
   /* .checkbox-block:nth-child(1),
 .checkbox-block:nth-child(2) {
   box-shadow: var(--box-shadow-1);
@@ -250,8 +251,6 @@ color:var(--button-text-color);
     width: 20px;
     height: 20px;
     fill: #fff;
-    /* stroke: #424849; */
-    /* stroke-width: 2px; */
   }
   .checkbox-icon>svg{
     /* border: 1px solid #424849; */
@@ -447,14 +446,14 @@ color: #F1582B;
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #D6DCDD; /* или любой другой серый цвет */
+  background-color: #D6DCDD; 
   margin-top: 32px; 
 }
 .price-details{
   padding-bottom: 20px;
 }
 .from{
-  margin-top: 33px;
+  margin-top: 32px;
   margin-bottom: 8px;
 /* font-family: 'SF Pro Text', Arial, sans-serif; */
 text-transform: uppercase;
@@ -490,7 +489,7 @@ width: 320px;
 }
 .btn-decr,
 .btn-incr{
-  background: var(--secondary-button-color);
+  background: var(--primary-white-color);
   border-radius: 8px;
   border: none;
   width: 44px;
@@ -517,11 +516,12 @@ width: 320px;
   font-size: 16px;
   line-height: 100%;
   color: var(--button-text-color);
-  background: var(--secondary-button-color);
+  background: var(--primary-white-color);
+  padding: 13px 16px 15px;
     border-radius: 8px;
      height: 44px;
     border: var(--border-button);
-    box-shadow: var(--box-shadow-1);
+    /* box-shadow: var(--box-shadow-1); */
     display: flex;
     justify-content: center;
     align-items: center;

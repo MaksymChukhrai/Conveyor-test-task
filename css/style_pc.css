@@ -38,12 +38,16 @@ h1.main-slogan-pc{
     margin: 0 auto;
 }
 .header-position-container{
-  margin-left:13.5%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 .header-content{
     margin-left:0;
     margin-bottom:48px;
 }
+.header-content li {
+    margin-bottom: 0px; 
+  }
 .home{
     margin-bottom: 0px;
 }
@@ -73,11 +77,60 @@ width: 108px;
    gap:8px;
    margin-bottom: 32px;
   }
+  /* ------order-result-------- */
+  .order-result{
+    width: 304px;
+  }
+  .order-details{
+    margin: 24px 20px 24px 20px;
+  }
+  .order-type{
+    padding: 0px 0px 12px 0px;
+  }
 
+  .bottom-buttons {
+   flex-direction: column;
+}
+.btn-upon-req{
+    width: 125px;
+    font-family: inherit;
+}
+.fin-price_pc{
+    display:block;
+    width: 264px;
+    /* margin-bottom: 24px; */
+    font-family: 'SF Pro Text', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: var(--light-grey-color);
+   }
+  .btn-request{
+    width: 264px;
+    margin: 24px 0px 24px 0px;
+  }
+  .amount{
+    width: 144px;
+  }
+
+  .fin-price_mob{
+    display:none;
+
+  }
+  .text-hidden {
+    display: block;
+}
+.price-details{
+    padding-bottom: 0px;
+  }
 .conveyor-belt-title{
     display:flex;
     gap:8px;
     margin-top:12px;
+}
+.is-hidden{
+    display:none;
 }
 .length-result{
     width:64px;
@@ -94,10 +147,21 @@ width: 108px;
 }
 .header-content{
     max-width:364px;
+    margin-left: 14.5%;
+}
+.order-rating{
+    width: 264px;
+}
+.order-stars{
+    gap: 20px;
+}
+#price{
+    font-weight: 700;
 }
 
-
-
+.counter-price{
+      gap: 16px;
+  }
 
 
 
