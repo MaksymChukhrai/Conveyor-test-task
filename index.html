@@ -110,16 +110,16 @@
                 <span class="icon-container">
                     <svg class="icon-info" width="16" height="16">
                   <use href="./img/icons/sprite.svg#icon-info"></use> 
-                  <!-- info -->
+    
                     </svg>
                     <div class="tooltip belt">Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems.</div>
                 </span>
             </div>
         <div class="bed-section-title">
-            <div class="arrow left"><button type="button" class="btn-length" ><img src="./img/icons/Chevron_left.png"></button>
+            <div class="arrow left"><button type="button" class="btn-length btn-decr-length" ><img src="./img/icons/Chevron_left.png"></button>
             </div>
-            <div class="length-result"> 10"</div>
-            <div class="arrow right"><button type="button" class="btn-length">
+            <div class="length-result js-length-result"> 10"</div>
+            <div class="arrow right"><button type="button" class="btn-length btn-incr-length">
                 <img src="./img/icons/Chevron_right.png">
                   </button>
             </div>
@@ -203,8 +203,7 @@
             <span class="icon-container">
               <svg class="icon-info" width="16" height="16">
             <use href="./img/icons/sprite.svg#icon-info"></use> 
-            <!-- info -->
-              </svg>
+                       </svg>
               <div class="tooltip belt">Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems.</div>
           </span>
           <input type="hidden" id="fav-hidden" name="fav-hidden">
@@ -249,7 +248,7 @@
                 </ul>
               </div>
             </div>
-                <!-- Здесь прочертить серую линию -->
+            
 
             <div class="price-details">
                 <p class="from">from <span id="price">$22360</span> <span id="ea">EA</span><span id="price"> *</span></p>
@@ -281,5 +280,6 @@
       <!-- Script for custom belt width -->
      <script src="./js/custom-belt-width.js"></script>
      <script src="./js/increm-decrem.js"></script>
+     <script src="./js/increm-decrem-length.js"></script>
     </body>
 </html>
