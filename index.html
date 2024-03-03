@@ -193,8 +193,9 @@
               </svg>
               <div class="tooltip belt">Flexible gravity roller conveyors are ideal for maneuvering into places that are not suited for conventional conveyor systems.</div>
           </span>
+          <input type="hidden" id="fav-hidden" name="fav-hidden">
         </div>
-        <label for="fav"></label>
+        <label for="fav">
             <input list="browsers" name="fav" id="fav" placeholder="Select options"/>
             <datalist id="browsers">
             <option>Chain Driven Feeder</option>
@@ -202,42 +203,52 @@
             <option>Knee Braces</option>
             <option>Enhanced support</option>
             </datalist>
+          </label>
         </section>
 <section class="order-result">
         <div class="order-details">
-            <div>SKU: <span>WMD-2446F-GRYI</span></div>
+            <div class="order-type">SKU: <span id="order-code">WMD-2446F-GRYI</span>
+            </div>
+         <div class="bottom-buttons">
             <button type="button" class="btn-upon-req"><svg width="16" height="16">
-                <use href="./images/sprite.svg#---"></use>
+                <use href="./img/icons/sprite.svg#icon-chek-button"></use>
                   </svg>Upon request</button>
+         
             <div class="order-rating">
                 <ul class="order-stars">
-                    <li><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
+                  <ul class="stars">
+                    <li><svg width="16" height="16"><use href="./img/icons/sprite.svg#icon-Star"></use>
                           </svg></li>
-                    <li><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
+                    <li><svg width="16" height="16"><use href="./img/icons/sprite.svg#icon-Star"></use>
                           </svg></li>
-                    <li><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
+                    <li><svg width="16" height="16"><use href="./img/icons/sprite.svg#icon-Star"></use>
                           </svg></li>
-                    <li><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
+                    <li><svg width="16" height="16"><use href="./img/icons/sprite.svg#icon-Star"></use>
                           </svg></li>
-                    <li><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
+                    <li><svg width="16" height="16"><use href="./img/icons/sprite.svg#icon-Star"></use>
                           </svg></li>
-                    <li>(20)</li>
+                   </ul>
+                    <li id="twenty">(20)</li>
                     <li class="text-hidden">READ</li>
-                    <li class="arrow-stars-right"><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
-                    </svg></li>
+                    <li class="arrow-stars-right"><img src="./img/icons/Chevron_right.png"/> 
+                    </li>
                 </ul>
-                <!-- Здесь прочертить серую линию -->
+              </div>
             </div>
-            <div>
-                <p>from <span id="price">$22360</span>EA<span>*</span></p>
-                <div class="counter-price"></div>
-                    <button type="button" class="btn-decr" data-decrement="1"> -</button>
+                <!-- Здесь прочертить серую линию -->
+
+            <div class="price-details">
+                <p class="from">from <span id="price">$22360</span> <span id="ea">EA</span><span id="price"> *</span></p>
+                <p class="fin-price_mob">*Final price is defined after a consultation with our specialist due to conveyor specifics of use.</p>
+                <div class="counter-price">
+                    <button type="button" class="btn-decr" data-decrement="1">-</button>
                     <div class="amount">1</div>
-                    <button type="button" class="btn-incr" data-increment="1"> +</button>
+                    <button type="button" class="btn-incr" data-increment="1">+</button>
                 </div>
-                <button type="button" class="btn-request"><svg width="16" height="16"><use href="./images/sprite.svg#---"></use>
+                <button type="button" class="btn-request"><svg width="16" height="16"><use href="./img/icons/sprite.svg#icon-flag-button"></use>
                 </svg>REQUEST</button>
-                <p>*Final price is defined after a consultation with our specialist due to actual conditions of use.</p>
+
+                <p class="fin-price_pc">*Final price is defined after a consultation with our specialist due to conveyor specifics of use.</p>
             </div>
         </div>
 </section>
