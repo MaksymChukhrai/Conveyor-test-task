@@ -7,7 +7,12 @@
     width: 108px;
     height: 72px;
 }
-
-
+.check-form{
+  display:block;  
+}
+#fav,
+.pc-hidden{
+    display:none;
+}
 
 }
