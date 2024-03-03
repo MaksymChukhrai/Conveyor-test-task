@@ -10,12 +10,11 @@ checkboxInputs.forEach(checkboxInput => {
   checkboxInput.addEventListener('change', (event) => {
     if (event.target.checked) {
       // Меняем иконку на нажатое состояние
-      checkboxIcon.setAttribute('href', '../img/icons/sprite.svg#icon-checkbox-2');
+      checkboxIcon.setAttribute('href', '/Conveyor-test-task/img/icons/sprite.svg#icon-checkbox-2');
     } else {
       // Возвращаем исходную иконку
-      checkboxIcon.setAttribute('href', '../img/icons/sprite.svg#icon-checkbox');
+      checkboxIcon.setAttribute('href', '/Conveyor-test-task/img/icons/sprite.svg#icon-checkbox');
     }
   });
 });
-
 
