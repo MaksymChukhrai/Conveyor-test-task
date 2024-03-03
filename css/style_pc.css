@@ -120,6 +120,11 @@ width: 108px;
   }
   .text-hidden {
     display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
 }
 .price-details{
     padding-bottom: 0px;
@@ -153,7 +158,7 @@ width: 108px;
     width: 264px;
 }
 .order-stars{
-    gap: 20px;
+    padding: 8px 0px 8px 12px;
 }
 #price{
     font-weight: 700;
@@ -161,6 +166,12 @@ width: 108px;
 
 .counter-price{
       gap: 16px;
+  }
+  #twenty{
+    margin-right: 50px;
+  }
+  .arrow-stars-right{
+    margin-left: 2px;
   }
 
 
