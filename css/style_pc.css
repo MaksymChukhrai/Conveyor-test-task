@@ -7,6 +7,84 @@
     width: 108px;
     height: 72px;
 }
+
+main{
+    display:flex;
+    justify-content: center;
+}
+.swiper{
+    max-width: 652px;
+    height: 434px;
+    border: 1px solid #ECF2F3;
+    border-radius: 8px;
+
+  }
+
+
+
+.details-global-container{
+    margin-left:44px;
+}
+.main-slogan-mob{
+    display:none;
+}
+h1.main-slogan-pc{
+    display:block;
+    margin:0px 0px 40px 0px;
+    font-size: 40px;
+}
+.header{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header-position-container{
+  margin-left:13.5%;
+}
+.header-content{
+    margin-left:0;
+    margin-bottom:48px;
+}
+.home{
+    margin-bottom: 0px;
+}
+/* ------Ordering---- */
+.ordering{
+    width:316px;
+    margin:0px 44px 0px 0px;
+}
+.belt-width{
+    gap: 12px;
+}
+.btn-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 14px 11px 18px;
+    width: 48px;
+    height: 32px;
+    border-radius: 4px;
+}
+.belt-width li:last-child .btn-width {
+padding: 11px 16px;
+gap: 10px;
+width: 108px;
+}
+.bed-section-title{
+   gap:8px;
+   margin-bottom: 32px;
+  }
+
+.conveyor-belt-title{
+    display:flex;
+    gap:8px;
+    margin-top:12px;
+}
+.length-result{
+    width:64px;
+}
+.position-container{
+    display:flex;
+}
 .check-form{
   display:block;  
 }
@@ -14,5 +92,13 @@
 .pc-hidden{
     display:none;
 }
+.header-content{
+    max-width:364px;
+}
+
+
+
+
+
 
 }

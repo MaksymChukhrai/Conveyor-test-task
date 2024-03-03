@@ -19,6 +19,7 @@
 </head>
 <body>
     <header>
+      <div class="header-position-container">
         <ul class="header-content">
             <li class="home">Home</li>
             <li><svg class="icon-arrow_right_long" width="16" height="16">
@@ -32,17 +33,18 @@
           </li>
             <li class="incline-decline">Incline & Decline Conveyors</li>
         </ul>
+      </div>
     </header>
     <main>
-        <h1>Incline & Decline Conveyors</h1>
+        <h1 class="main-slogan-mob">Incline & Decline Conveyors</h1>
         <section>
             <div class="swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="./img/conv1@1pc.webp" width="360"  alt="sdfsdf"/></div>
-                  <div class="swiper-slide"><img src="./img/conv2@1x_pc.webp" width="360"  alt="sdf"/></div>
-                  <div class="swiper-slide"><img src="./img/conv3_1x_pc.webp" width="360"  alt="sdf"/></div>
-                  <div class="swiper-slide"><img src="./img/conv4_1x_pc.webp" width="360"  alt="dsf"/></div>
-                  <div class="swiper-slide"><img src="./img/conv5_1x_pc.webp" width="360"  alt="sdf"/></div>
+                  <div class="swiper-slide"><img src="./img/conv1@1pc.webp"  alt="sdfsdf"/></div>
+                  <div class="swiper-slide"><img src="./img/conv2@1x_pc.webp"  alt="sdf"/></div>
+                  <div class="swiper-slide"><img src="./img/conv3_1x_pc.webp"  alt="sdf"/></div>
+                  <div class="swiper-slide"><img src="./img/conv4_1x_pc.webp"   alt="dsf"/></div>
+                  <div class="swiper-slide"><img src="./img/conv5_1x_pc.webp"   alt="sdf"/></div>
                 </div>
               <!-- If we need pagination -->
               <!-- <div class="swiper-pagination"></div> -->
@@ -70,6 +72,9 @@
                   <div class="swiper-button-next"></div> -->
             </div>
         </section>
+<div class="details-global-container">
+        <h1 class="main-slogan-pc">Incline & Decline Conveyors</h1>
+        <div class="position-container">
         <section class="ordering">
             <div class="conv-details">
                 <h3>Conveyor Belt Width, in</h3>
@@ -91,6 +96,15 @@
                 <li><button type="button" class="btn-width" data-width="54"> 54"</button></li>
                 <li class="custom-in"><button type="button" class="btn-width" data-width="custom"> Custom</button></li>
             </ul>
+            <div class="conveyor-belt-title">
+              <div class="arrow left"><button type="button" class="btn-length" ><img src="./img/icons/Chevron_left.png"></button>
+              </div>
+              <div class="length-result"> 1"</div>
+              <div class="arrow right"><button type="button" class="btn-length">
+                  <img src="./img/icons/Chevron_right.png">
+                    </button>
+              </div>
+          </div>
             <div class="bed-section">
                 <h3>Bed Section Length, in</h3>
                 <span class="icon-container">
@@ -205,7 +219,7 @@
             </datalist>
           </label>
         </section>
-<section class="order-result">
+        <section class="order-result">
         <div class="order-details">
             <div class="order-type">SKU: <span id="order-code">WMD-2446F-GRYI</span>
             </div>
@@ -251,7 +265,9 @@
                 <p class="fin-price_pc">*Final price is defined after a consultation with our specialist due to conveyor specifics of use.</p>
             </div>
         </div>
-</section>
+        </section>
+        </div>
+      </div>
     </main>
 
     <footer>

@@ -28,6 +28,7 @@
     margin-left:20px;
     align-content: center;
     align-items: center;
+    max-width: 320px;
 }
 .header-content li svg {
   position: relative;
@@ -55,7 +56,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 1;
-color: #042A30;
+color: var(--primary-text-color);
+}
+.main-slogan-pc{
+  display:none;
 }
 h3{
   font-family: 'SF Pro Text', Arial, sans-serif;
@@ -150,7 +154,9 @@ flex-wrap: wrap;
   background: var(--hover-button-color);
   color:var(--primary-white-color);
 }
-
+.conveyor-belt-title{
+  display:none;
+}
 .bed-section{
   display: flex;
   flex-direction: row;
@@ -496,7 +502,7 @@ width: 320px;
   font-size: 32px;
     text-align: center;
     color: var(--button-text-color);
-    padding-bottom: 11px;
+    padding-bottom: 10px;
 }
 .btn-decr:hover,
 .btn-incr:hover{
