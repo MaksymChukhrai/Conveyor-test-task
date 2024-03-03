@@ -16,3 +16,31 @@ customButton.addEventListener('click', () => {
     conveyorBeltTitle.classList.add('is-hidden');
   }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const lengthResult = document.querySelector('.length-result');
+    const btnDecr = document.querySelector('.btn-decrement');
+    const btnIncr = document.querySelector('.btn-increment');
+  
+    let lengthValue = 1;
+  
+    // Функция для обновления значения и его отображения
+    function updateLengthValue() {
+      lengthResult.textContent = lengthValue + '"';
+    }
+  
+    // Обработчик клика на кнопку уменьшения
+    btnDecr.addEventListener('click', function () {
+      if (lengthValue > 1) {
+        lengthValue--;
+        updateLengthValue();
+      }
+    });
+  
+    // Обработчик клика на кнопку увеличения
+    btnIncr.addEventListener('click', function () {
+      lengthValue++;
+      updateLengthValue();
+    });
+  });
+  
