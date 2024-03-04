@@ -78,7 +78,8 @@ h3 {
   display: none;
 }
 
-.swiper-slide {
+.swiper-slide,
+.swiper-slide img {
   width: 360px;
   height: 240px;
 }
@@ -547,4 +548,9 @@ input[list="browsers"] {
 /* ---------------------slider---- */
 .btn-thubm {
   display: none;
+
 }
+/* .swiper{
+  width: 100%;
+  height: 100%;
+} */

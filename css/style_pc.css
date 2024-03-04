@@ -200,7 +200,11 @@ width: 108px;
 .swiper-wrapper-thumb {
     gap: 8px;
 }
-
+.swiper-slide,
+.swiper-slide img {
+  width: 652px;
+  height: 434px;
+}
 
 
 
