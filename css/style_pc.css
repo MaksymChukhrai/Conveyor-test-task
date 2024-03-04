@@ -196,6 +196,11 @@ width: 108px;
 button.btn-thubm{
   border:none;
 }
+button.btn-thubm:hover{
+  cursor: pointer;
+  background-color: var(--hover-grey-color);
+  color: var(--primary-white-color);
+}
 .swiper-thumb img{
   width:108px;
   height: 72px;

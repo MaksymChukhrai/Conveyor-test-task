@@ -214,7 +214,8 @@ width:155px;
 }
 .btn-length:hover {
   cursor: pointer;
-  background: var(--hover-button-color);
+  background-color: var(--hover-grey-color);
+  color: var(--primary-white-color);
 }
 .length-result {
   width: 192px;
