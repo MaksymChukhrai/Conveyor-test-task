@@ -193,19 +193,25 @@ width: 108px;
     justify-content: center;
     align-items: center;
 }
-.swiper-thumb{
-    width:108px;
-    height: 72px;
+button.btn-thubm{
+  border:none;
+}
+.swiper-thumb img{
+  width:108px;
+  height: 72px;
 }
 .swiper-wrapper-thumb {
     gap: 8px;
+    margin-top: 16px;
 }
 .swiper-slide,
 .swiper-slide img {
   width: 652px;
   height: 434px;
 }
-
+.slide-caption{
+  width:291px;
+}
 
 
 }
