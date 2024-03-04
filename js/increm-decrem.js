@@ -1,51 +1,43 @@
-// Получаем элементы DOM для кнопок увеличения и уменьшения количества
-const increaseButton = document.querySelector('.btn-incr');
-const decreaseButton = document.querySelector('.btn-decr');
+const increaseButton = document.querySelector(".btn-incr");
+const decreaseButton = document.querySelector(".btn-decr");
 
-// Получаем элемент DOM для отображения количества и цены
-const amountElement = document.querySelector('.amount');
-const priceElement = document.getElementById('price');
+// Get DOM element to display quantity and price
+const amountElement = document.querySelector(".amount");
+const priceElement = document.getElementById("price");
 
-// Получаем стоимость одного конвейера
+// Get the cost of one conveyor
 const unitPrice = 22360;
 
-// Устанавливаем начальное количество конвейеров
+// Set the initial number of conveyors
 let quantity = 1;
 
-// Функция для обновления отображаемого количества и цены
+// Function for updating the displayed quantity and price
 function updateQuantityAndPrice() {
-  // Обновляем отображаемое количество
+  // Update the displayed quantity
   amountElement.textContent = quantity;
-  
-  // Рассчитываем новую цену
+
+  // Calculate the new price
   const totalPrice = unitPrice * quantity;
-  
-  // Обновляем отображаемую цену
+
+  // Update the displayed price
   priceElement.textContent = `$${totalPrice}`;
 }
 
-// Добавляем обработчик события для кнопки увеличения количества
-increaseButton.addEventListener('click', () => {
-  // Увеличиваем количество на 1
+// Add event handler for the increase quantity button
+increaseButton.addEventListener("click", () => {
   quantity++;
-  
-  // Обновляем отображаемое количество и цену
+
   updateQuantityAndPrice();
 });
 
-// Добавляем обработчик события для кнопки уменьшения количества
-decreaseButton.addEventListener('click', () => {
-  // Проверяем, чтобы количество было не меньше 1
+decreaseButton.addEventListener("click", () => {
+  // Check that the number is not less than 1
   if (quantity > 1) {
-    // Уменьшаем количество на 1
     quantity--;
-    
-    // Обновляем отображаемое количество и цену
+
     updateQuantityAndPrice();
   }
 });
 
-// Инициализируем отображение начального количества и цены
+// Initialise the display of the initial quantity and price
 updateQuantityAndPrice();
-
-

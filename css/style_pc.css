@@ -13,7 +13,7 @@ main{
     justify-content: center;
 }
 .swiper{
-    max-width: 652px;
+    width: 652px;
     height: 434px;
     border: 1px solid #ECF2F3;
     border-radius: 8px;
@@ -173,6 +173,34 @@ width: 108px;
   .arrow-stars-right{
     margin-left: 2px;
   }
+/* --------slider------ */
+.btn-thubm{
+    display:block;
+}
+.swiper-thumbs {
+    justify-content: center;
+  }
+
+.btn-thubm{
+    background: var(--secondary-button-color);
+    border-radius: 8px;
+    border: none;
+    height: 44px;
+    width: 32px;
+    height:72px;
+    border: var(--border-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-thumb{
+    width:108px;
+    height: 72px;
+}
+.swiper-wrapper-thumb {
+    gap: 8px;
+}
+
 
 
 

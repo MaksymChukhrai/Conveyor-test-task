@@ -1,33 +1,31 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Получаем кнопки инкремента и декремента
-    const incrButton = document.querySelector('.btn-incr-length');
-    const decrButton = document.querySelector('.btn-decr-length');
-    const lengthResult = document.querySelector('.js-length-result');
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the increment and decrement buttons
+  const incrButton = document.querySelector(".btn-incr-length");
+  const decrButton = document.querySelector(".btn-decr-length");
+  const lengthResult = document.querySelector(".js-length-result");
 
-    // Устанавливаем начальное значение
-    let lengthValue = 10;
+  // Set initial value
+  let lengthValue = 10;
 
-    // Функция для обновления значения и отображения результата
-    function updateLength() {
-        lengthResult.textContent = ` ${lengthValue}"`;
-    }
+  // Function to update the value and display the result
+  function updateLength() {
+    lengthResult.textContent = ` ${lengthValue}"`;
+  }
 
-    // Обработчик клика на кнопку инкремента
-    incrButton.addEventListener('click', function() {
-        lengthValue += 5;
-        updateLength();
-    });
-
-    // Обработчик клика на кнопку декремента
-    decrButton.addEventListener('click', function() {
-        // Значение не должно быть меньше 0
-        if (lengthValue >= 5) {
-            lengthValue -= 5;
-            updateLength();
-        }
-    });
-
-    // Инициализация значения
+  // Increment button click handler
+  incrButton.addEventListener("click", function () {
+    lengthValue += 5;
     updateLength();
-});
+  });
 
+  // Decrement button click handler
+  decrButton.addEventListener("click", function () {
+    // The value must not be less than 0
+    if (lengthValue >= 5) {
+      lengthValue -= 5;
+      updateLength();
+    }
+  });
+
+  updateLength();
+});
