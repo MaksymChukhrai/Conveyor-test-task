@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const checkboxInputs = document.querySelectorAll(".visually-hidden");
 
   // Указываем абсолютный путь к файлу спрайта
-  const iconPathChecked = "../img/icons/Checkbox_cheked.png";
-  const iconPathUnchecked = "../img/icons/Checkbox.png";
+  const iconPathChecked = "https://maksymchukhrai.github.io/Conveyor-test-task/blob/main/img/icons/Checkbox_cheked.png";
+  const iconPathUnchecked = "https://maksymchukhrai.github.io/Conveyor-test-task/blob/main/img/icons/Checkbox.png";
 
   // Добавляем обработчик события для каждого чекбокса
   checkboxInputs.forEach(checkboxInput => {
