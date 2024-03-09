@@ -1,5 +1,3 @@
-//js\checkbox.js
-
 const checkboxInputs = document.querySelectorAll(".visually-hidden");
 
 checkboxInputs.forEach(checkboxInput => {
