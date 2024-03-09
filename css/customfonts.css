@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'SF Pro Text Regular';
+  src: local('SF Pro Text Regular'), url('../fonts/SF-Pro-Text-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF Pro Text Medium'; 
+  src: local('SF Pro Text Medium'), url('../fonts/SFProText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Text Semibold';
+  src: local('SF Pro Text Semibold'), url('../fonts/SFProText-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Text Bold';
+  src: local('SF Pro Text Bold'), url('../fonts/SF-Pro-Text-Bold.otf') format('opentype');
+}
