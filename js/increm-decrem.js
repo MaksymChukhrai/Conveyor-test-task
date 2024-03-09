@@ -26,15 +26,12 @@ function updateQuantityAndPrice() {
 // Add event handler for the increase quantity button
 increaseButton.addEventListener("click", () => {
   quantity++;
-
   updateQuantityAndPrice();
 });
-
 decreaseButton.addEventListener("click", () => {
   // Check that the number is not less than 1
   if (quantity > 1) {
     quantity--;
-
     updateQuantityAndPrice();
   }
 });

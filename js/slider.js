@@ -6,15 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      prevEl: ".swiper-button-prev"
     },
     autoplay: {
-      delay: 2000, // Delay between slides in milliseconds (in this case 5 seconds)
-      disableOnInteraction: false, // Disable autoscrolling when user interacts with the slider
+      delay: 2000,
+      // Delay between slides in milliseconds (in this case 5 seconds)
+      disableOnInteraction: false // Disable autoscrolling when user interacts with the slider
     },
     pagination: {
       el: ".swiper-pagination",
-      type: "fraction",
+      type: "fraction"
     },
     speed: 1000,
     breakpoints: {
@@ -25,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true,
         navigation: {
           nextEl: "swiper-button-disabled",
-          prevEl: "swiper-button-disabled",
-        },
+          prevEl: "swiper-button-disabled"
+        }
       },
       // when window width is >= 1200px
       1200: {
@@ -35,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true,
         navigation: {
           nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      },
-    },
+          prevEl: ".swiper-button-prev"
+        }
+      }
+    }
   });
 });

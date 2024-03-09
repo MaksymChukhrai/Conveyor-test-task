@@ -26,6 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
       updateLength();
     }
   });
-
   updateLength();
 });
