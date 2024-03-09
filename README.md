@@ -10,7 +10,7 @@ Or you can view the project on GitHub by going to [this gh page](https://maksymc
 
 The layout is made according to Figma layout for mobile devices 360px and PC - 1920px. The break point for PC is 1200px.
 
-## Fonts
+## Fonts. 
 The standard set of fonts 'Montserrat', Arial, sans-serif from Google fonts library was used 
 'SF Pro Text', -font for iOS devices - is installed and connected locally in the project and may be incorrectly displayed on Windows devices. In case of incorrect display on these devices, it is replaced by a standard similar installed font.
 
